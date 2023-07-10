@@ -1,16 +1,16 @@
 import { useEffect } from 'react'
 import Data from './fetch'
-import del from './components/delete'
+import Form from './components/form'
 
 function App() {
   useEffect(() => {
     Data()
-    del()
   }, [])
   return (
     <>
       <div className="w-full">
         <h1 className="mx-auto my-5 w-max text-xl font-bold">Lokasi Wisata Jawa Timur</h1>
+        <Form />
         <table className="w-[90vw] m-auto">
           <thead>
             <tr className="border border-black">
@@ -26,5 +26,7 @@ function App() {
     </>
   )
 }
+
+
 
 export default App

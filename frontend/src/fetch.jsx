@@ -18,7 +18,7 @@ const Data = async () => {
     </tr>
     `
   })
-  const btnDelete = await document.querySelectorAll('#delete')
+  const btnDelete = document.querySelectorAll('#delete')
   btnDelete.forEach(item => {
     item.addEventListener('click', () => {
       const itemId = item.getAttribute('data-id')
