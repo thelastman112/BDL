@@ -12,7 +12,7 @@ const getForm = async (id) => {
   document.getElementById('inputNama').value = nama
   document.getElementById('inputLokasi').value = lokasi
   document.getElementById('inputGambar').value = image
-  document.getElementById('update').addEventListener('click', async (res, req) => {
+  document.getElementById('update').addEventListener('click', async () => {
     const namaForm = document.getElementById('inputNama').value
     const lokasiForm = document.getElementById('inputLokasi').value
     const gambarForm = document.getElementById('inputGambar').value

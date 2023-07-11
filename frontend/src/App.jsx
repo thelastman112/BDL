@@ -13,12 +13,12 @@ function App() {
         <div id='form'>
           <Form />
         </div>
-        <table className="w-[90vw] m-auto">
+        <table className="w-[90vw] mx-auto my-10">
           <thead>
             <tr className="border border-black">
               <td className="border border-black text-center">Nama</td>
               <td className="border border-black text-center">Lokasi</td>
-              <td className="border border-black text-center">Gambar</td>
+              <td className="border border-black text-center w-[20vw] min-w-[20vw]">Gambar</td>
               <td className="border border-black text-center">Opsi</td>
             </tr>
           </thead>

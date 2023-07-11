@@ -12,7 +12,9 @@ const Data = async () => {
     <tr className="border border-black" id="${item._id}">
       <td className="border border-black text-center">${item.nama}</td>
       <td className="border border-black text-center">${item.lokasi}</td>
-      <td className="border border-black text-center">${item.image}</td>
+      <td className="border border-black text-center">
+        <img class="imageForm" src="${item.image}" alt="GambarWisata">
+      </td>
       <td>
         <button id="update" data-id="${item._id}">update</button>
         <button id="delete" data-id="${item._id}">delete</button>
