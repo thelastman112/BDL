@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import Data from './fetch'
+import Data from './Fetch'
 import Form from './components/form'
 
 function App() {
@@ -10,7 +10,9 @@ function App() {
     <>
       <div className="w-full">
         <h1 className="mx-auto my-5 w-max text-xl font-bold">Lokasi Wisata Jawa Timur</h1>
-        <Form />
+        <div id='form'>
+          <Form />
+        </div>
         <table className="w-[90vw] m-auto">
           <thead>
             <tr className="border border-black">

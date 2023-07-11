@@ -15,6 +15,7 @@ const insert = async () => {
       console.error(err)
       return[]
     })
+  inserted()
 }
 
 export default insert
